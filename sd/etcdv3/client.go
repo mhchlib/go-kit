@@ -215,7 +215,6 @@ func (c *client) Register(s Service) error {
 				if r == nil {
 					if err := c.Register(s); err != nil {
 						fmt.Println(err.Error())
-						time.Sleep(10 * time.Second)
 					}
 					return
 				}
