@@ -7,10 +7,10 @@ import (
 
 	consul "github.com/hashicorp/consul/api"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/sd"
-	"github.com/go-kit/kit/sd/internal/instance"
-	"github.com/go-kit/kit/util/conn"
+	"github.com/mhchlib/go-kit/log"
+	"github.com/mhchlib/go-kit/sd"
+	"github.com/mhchlib/go-kit/sd/internal/instance"
+	"github.com/mhchlib/go-kit/util/conn"
 )
 
 const defaultIndex = 0

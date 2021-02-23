@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/sd"
-	"github.com/go-kit/kit/sd/internal/instance"
+	"github.com/mhchlib/go-kit/log"
+	"github.com/mhchlib/go-kit/sd"
+	"github.com/mhchlib/go-kit/sd/internal/instance"
 )
 
 // ErrPortZero is returned by the resolve machinery

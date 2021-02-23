@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/sd"
+	"github.com/mhchlib/go-kit/endpoint"
+	"github.com/mhchlib/go-kit/log"
+	"github.com/mhchlib/go-kit/sd"
 )
 
 var _ sd.Instancer = (*Cache)(nil) // API check

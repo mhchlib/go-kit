@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/sd"
 	stdconsul "github.com/hashicorp/consul/api"
+	"github.com/mhchlib/go-kit/endpoint"
+	"github.com/mhchlib/go-kit/log"
+	"github.com/mhchlib/go-kit/sd"
 )
 
 func TestIntegration(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/go-kit/kit/log"
 	"github.com/go-logfmt/logfmt"
+	"github.com/mhchlib/go-kit/log"
 )
 
 func TestLogfmtLogger(t *testing.T) {
