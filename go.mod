@@ -24,4 +24,5 @@ require (
 	go.uber.org/zap v1.13.0
 	gopkg.in/gcfg.v1 v1.2.3 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
+	github.com/mhchlib/logger v0.0.2
 )

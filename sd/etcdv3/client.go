@@ -5,6 +5,7 @@ import (
 	"crypto/tls"
 	"errors"
 	"fmt"
+	"github.com/mhchlib/logger"
 	"time"
 
 	"go.etcd.io/etcd/clientv3"
@@ -214,7 +215,8 @@ func (c *client) Register(s Service) error {
 				// avoid dead loop when channel was closed
 				if r == nil {
 					if err := c.Register(s); err != nil {
-						fmt.Println(err.Error())
+						//fmt.Println(err.Error())
+						logger.Error(err.Error())
 					}
 					return
 				}
